@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BOP Sun Power</title>
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" href="apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="BOP Sun Power">
+<style>body{margin:0;min-height:100vh;display:grid;place-items:center;font:16px system-ui,sans-serif;text-align:center;color:#1d1f1d}
+img{width:96px;height:96px;border-radius:22px}a{color:#2f8f2f;font-weight:700}</style>
+<script>
+// >>> GANTI tulisan di antara tanda petik dengan link aplikasi Anda (yang berakhiran /exec) <<<
+var TARGET = 'GANTI_DENGAN_LINK_EXEC';
+if (TARGET.indexOf('https://') === 0) { location.replace(TARGET); }
+</script>
+</head>
+<body>
+<div><img src="apple-touch-icon.png" alt="Sun Power"><p>Membuka aplikasi BOP…</p>
+<p><a id="go" href="#">Ketuk di sini jika tidak terbuka</a></p></div>
+<script>document.getElementById('go').href = TARGET;</script>
+</body>
+</html>
